@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2d1615e3-3d44-4bd0-b1ff-1081bb4c0094</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonWeb.py</StartupFile>
+    <StartupFile>starter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonWeb.py" />
+    <Compile Include="app\main\views.py" />
+    <Compile Include="app\main\__init__.py" />
+    <Compile Include="app\__init__.py" />
+    <Compile Include="config.py" />
+    <Compile Include="starter.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -38,7 +47,8 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="requirements.txt" />
+    <Folder Include="app\" />
+    <Folder Include="app\main\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
