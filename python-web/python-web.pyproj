@@ -31,6 +31,20 @@
     <Content Include=".gitignore" />
     <Content Include="app\main\__pycache__\views.cpython-36.pyc" />
     <Content Include="app\main\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="app\static\es2015-polyfills.js" />
+    <Content Include="app\static\es2015-polyfills.js.map" />
+    <Content Include="app\static\favicon.ico" />
+    <Content Include="app\static\index.html" />
+    <Content Include="app\static\main.js" />
+    <Content Include="app\static\main.js.map" />
+    <Content Include="app\static\polyfills.js" />
+    <Content Include="app\static\polyfills.js.map" />
+    <Content Include="app\static\runtime.js" />
+    <Content Include="app\static\runtime.js.map" />
+    <Content Include="app\static\styles.js" />
+    <Content Include="app\static\styles.js.map" />
+    <Content Include="app\static\vendor.js" />
+    <Content Include="app\static\vendor.js.map" />
     <Content Include="app\__pycache__\models.cpython-36.pyc" />
     <Content Include="app\__pycache__\__init__.cpython-36.pyc" />
     <Content Include="requirements.txt" />
@@ -40,6 +54,7 @@
     <Folder Include="app\auth\" />
     <Folder Include="app\main\" />
     <Folder Include="app\main\__pycache__\" />
+    <Folder Include="app\static\" />
     <Folder Include="app\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
